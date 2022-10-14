@@ -67,9 +67,63 @@
 
 // 5. Write a ts program to find second largest element in an array.
 
+// const secondLargestNum = (x:number[]) => {
+//     let first = 0;
+//     let second = 0;
+
+//     for (let i = 0; i < x.length; i++) {
+//         if(x[i] > first){
+//             second = first;
+//             first = x[i];
+//         }
+        
+//     }
+
+//     console.log("Second largest number in the array is: " + second);
+// }
+
+// secondLargestNum([1,2,3,4,5,6,8,8.5,9])
+
+
 
 // 6. Write a ts program to count total number of even and odd elements in an array.
+
+// const evenOdd = (x:number[]) => {
+//     let even = 0;
+//     let odd = 0;
+
+//     for(let i=0; i < x.length; i++){
+//         if(x[i] % 2 == 0){
+//             even += 1;
+//         }else {
+//             odd += 1;
+//         }
+//     }
+//     console.log("The total number of even elements in array is: " + even);
+//     console.log("The total number of odd elements in array is: " + odd);
+// }
+
+// evenOdd([1,2,3,4,5,6,7,8,9,10,11]);
+
+
+
 // 7. Write a ts program to count total number of negative elements in an array.
+
+const findNegNum = (x:number[]) => {
+    let negNum = 0;
+
+    for(let i=0; i<x.length; i++){
+        if(x[i] < 0){
+            negNum += 1;
+        }
+    }
+
+    console.log("The total number of negative elements in an array is: " + negNum);
+}
+
+findNegNum([1,-1,2,3,4,5,-2])
+
+
 // 8. Write a ts program to copy all elements from an array to another array.
 // 9. Write a ts program to insert an element in an array.
 // 10. Write a ts program to delete an element from an array at specified position.
