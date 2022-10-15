@@ -72,20 +72,41 @@
 // }
 // evenOdd([1,2,3,4,5,6,7,8,9,10,11]);
 // 7. Write a ts program to count total number of negative elements in an array.
-var findNegNum = function (x) {
-    var negNum = 0;
-    for (var i = 0; i < x.length; i++) {
-        if (x[i] < 0) {
-            negNum += 1;
-        }
-    }
-    console.log("The total number of negative elements in an array is: " + negNum);
-};
-findNegNum([1, -1, 2, 3, 4, 5, -2]);
+// const findNegNum = (x:number[]) => {
+//     let negNum = 0;
+//     for(let i=0; i<x.length; i++){
+//         if(x[i] < 0){
+//             negNum += 1;
+//         }
+//     }
+//     console.log("The total number of negative elements in an array is: " + negNum);
+// }
+// findNegNum([1,-1,2,3,4,5,-2])
 // 8. Write a ts program to copy all elements from an array to another array.
+// const copyArray = (x:number[], y:number[]) => {
+//     let arr1 = x;
+//     let arr2 = y;
+//     for(let i=0; i<arr2.length; i++) {
+//         arr1.push(arr2[i]);
+//     }
+//     console.log(arr1);
+// }
+// copyArray([1,2,5,7,9],[3,4,6,8]);
 // 9. Write a ts program to insert an element in an array.
+// const insertElement = (x:number[], elementToPush:number) => {
+//     x.push(elementToPush);
+//     console.log(x);
+// }
+// insertElement([1,2,3,4,5], 7)
 // 10. Write a ts program to delete an element from an array at specified position.
+// const deleteElement = (x:number[]) => {
+//     x.pop();
+//     console.log(x);
+// }
+// deleteElement([1,2,3,4,5,6,7,8,9,]);
 // 11. Write a ts program to count frequency of each element in an array.
+var countFreq = function (x) {
+};
 // 12. Write a ts program to print all unique elements in the array.
 // 13. Write a ts program to count total number of duplicate elements in an array.
 // 14. Write a ts program to delete all duplicate elements from an array.
