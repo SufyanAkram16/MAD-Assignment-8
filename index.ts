@@ -166,11 +166,26 @@
 
 // 11. Write a ts program to count frequency of each element in an array.
 
-const countFreq = (x:number[]) => {
-    
-}
+// const arr = ['a', 'b', 'a', 'a', 'c', 'c'];
+
+// const count = {};
+
+// for (let index = 0; index < arr.length; index++) {
+//   const element = arr[index];
+
+//   if (count[element]) {
+//     count[element] += 1;
+//   } else {
+//     count[element] = 1;
+//   }
+// }
+
+// console.log(count);
 
 // 12. Write a ts program to print all unique elements in the array.
+
+
+
 // 13. Write a ts program to count total number of duplicate elements in an array.
 // 14. Write a ts program to delete all duplicate elements from an array.
 // 15. Write a ts program to merge two array to third array.
