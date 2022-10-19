@@ -184,10 +184,61 @@
 
 // 12. Write a ts program to print all unique elements in the array.
 
+// const arr1:number[] = [1,1,2,2,3,3,4,5,6,66666 ];
+
+// for (let i = 0; i<arr1.length; i++) {
+
+    
+
+//     for(let j = 0; j < i; j++ ){
+//         if(arr1[i] === arr1[j]){
+//             break;
+//         }
+//     }
+
+//     if (i === j){
+            
+//         console.log(arr1[i])
+//     }
+// }
+
 
 
 // 13. Write a ts program to count total number of duplicate elements in an array.
+
+// const arr:number[] = [1,1,2,3,1];
+// let count = 0;
+
+// for(let i=0; i<arr.length; i++){
+//     for( let j=i+1; j<arr.length; j++){
+//         if(arr[i] == arr[j]){
+//             count++;
+//             break;
+//         }
+         
+//     }
+
+// }
+
+// console.log("Total numbers of duplicate elements in an array is " + count)
+
+
 // 14. Write a ts program to delete all duplicate elements from an array.
+
+const arr:number[] = [1,1,2,3,11,2];
+
+for(let i=0; i<arr.length; i++){
+    for( let j=0; j<arr.length; j++){
+        if(arr[i] == arr[j]){
+            arr.splice(arr[j],1);
+        }
+         
+    }
+
+}
+
+console.log("Total numbers of duplicate elements in an array is " + arr)
+
 // 15. Write a ts program to merge two array to third array.
 // 16. Write a ts program to find reverse of an array.
 // 17. Write a ts program to put even and odd elements of array in two separate array.
